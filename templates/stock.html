@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>{{ stock_data.name }} ({{ symbol }})</h1>
+    <p>Current Price: {{ stock_data.currentPrice }}</p>
+    <p>Open Price: {{ stock_data.openPrice }}</p>
+    <p>High Price: {{ stock_data.highPrice }}</p>
+    <p>Low Price: {{ stock_data.lowPrice }}</p>
+{% endblock %}
